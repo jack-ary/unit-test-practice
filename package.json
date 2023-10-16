@@ -1,0 +1,19 @@
+{
+  "name": "unit-test-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stock-portfolio.js",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^29.7.0"
+  }
+}
